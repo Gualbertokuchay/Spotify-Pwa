@@ -1,0 +1,14 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.card {
+  background-color: #FF5733;
+  padding: 60px;
+  text-align: center;
+  width: 100%; /* Set the width to 100% */
+  padding-top: 100%; /* Set the padding-top to create a square aspect ratio */
+  box-sizing: border-box; /* Include padding in the square size */
+}
